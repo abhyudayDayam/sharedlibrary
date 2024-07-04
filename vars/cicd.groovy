@@ -4,3 +4,9 @@ def gitDownload(repo)
 
 }
 
+def buildArtifact()
+{
+   sh 'mvn package'
+}
+
+
